@@ -22,10 +22,11 @@ firstrun = False  # Detects whether or not this is the First Run in the game
 
 
 # These are paths used to make my job easier
+
+indrafolder = Path(Path.home()/"Documents/ProjectIndra")
 logs = Path(Path.home()/"Documents/ProjectIndra/Logs")
 intlog = Path(Path.home()/"Documents/ProjectIndra/Logs/Int_log.txt")
 namelog = Path(Path.home()/"Documents/ProjectIndra/Logs/Name_log.txt") # NOTE: Unused
-indrafolder = Path(Path.home()/"Documents/ProjectIndra")
 vitals = Path(Path.home()/"Documents/ProjectIndra/Vitals")
 executes = Path(Path.home()/"Documents/ProjectIndra/Executes")
 mainexecutes = Path(Path.home()/"Documents/ProjectIndra/Executes/MainExecutes")

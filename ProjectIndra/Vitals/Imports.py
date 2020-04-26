@@ -1,11 +1,11 @@
 import os
 import os.path
+import PIL
 import shutil
 import time
 import random
 import sys
-import numpy
-import PIL
+import git
 from pathlib import Path
 from time import ctime
 if sys.version_info < (3, 0):

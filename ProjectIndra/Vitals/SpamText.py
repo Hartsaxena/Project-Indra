@@ -1,4 +1,5 @@
 # This is the text that Indra prints when you talk to her for the first time.
+# Nothing actually happens, it's just an illusion
 print("Indra.py transition processing...")
 print("Indra.py completed systemoverride")
 print("Indra.py creating new file in directory...")

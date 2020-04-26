@@ -1,5 +1,5 @@
 from pathlib import Path
-exec(open(Path.home()/"Documents/ProjectIndra/Vitals/VitalsPortal.py").read())
+exec(open(Path.home()/"Documents/ProjectIndra/VitalsPortal.py").read())
 
 
 # If you want testing (Unless it's negative testing, then go 30) just set it to 200. Default for simulation should be 75.
@@ -41,7 +41,7 @@ while interest < 300 and interest > 0:  # Supreme While loop
         exec(open(mainexecutes/"ExecIndra.py").read())
 
     elif topic.lower() == 'anime' or topic.lower() == 'manga' or topic.lower() == 'anime and manga':                # Anime or Manga
-        exec(open(mainexecutes/"ExecManga_and_Anime").read())
+        exec(open(mainexecutes/"ExecManga_and_Anime.py").read())
 
     elif topic.lower() == 'virus' or topic.lower() == 'are you a virus' or topic.lower() == 'is this a virus':      # Virus
         exec(open(mainexecutes/"ExecVirus.py").read())
@@ -74,6 +74,12 @@ while interest < 300 and interest > 0:  # Supreme While loop
 
     elif topic.lower() == 'gender' or topic.lower() == 'sex':
         exec(open(miscexecutes/"ExecGender.py").read())
+
+    elif topic.lower()=='name' or topic.lower()=='change name' or topic.lower()=='change my name':
+        exec(open(miscexecutes/"ExecNameChange.py").read())
+
+    elif topic.lower()=='update' or topic.lower()=='updater':
+        exec(open(indrafolder/"Updater.py").read())
 
     else:                                                                                                           # Confused Indra
         exec(open(miscexecutes/"ExecConfused.py").read())

@@ -1,4 +1,4 @@
-This is the guide to download the Project. You can find another copy of this file outside this folder (This makes it easier to find the instructions).
+This is the guide to download the Project.
 
 1. Download the files through https://github.com/Hartsaxena/Project-Indra.git
 

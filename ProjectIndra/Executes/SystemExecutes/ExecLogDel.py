@@ -2,7 +2,7 @@
 
 
 while topicdone == False:
-    print("Are you sure? doing this will delete all recorded data that this Program has created thus far")
+    print("Are you sure? doing this will delete all recorded data\nthat this Program has created thus far")
     yesno = input("Yes or No? ")
     if yesno.lower() == 'yes' or yesno.lower() == 'y' or yesno.lower() == 'sure' or yesno.lower() == 'ok':
         print("Deleting Logs Directory...")
@@ -39,7 +39,7 @@ while topicdone == False:
         #     sleep(2)
         sys.exit()
     if yesno.lower() == 'no' or yesno.lower() == 'not really' or yesno.lower() == 'nope' or yesno.lower() == 'n':
-        print("Thank you for reconsidering")
+        print("Thank you for reconsidering.")
         sleep(1.75)
         topicdone = True
     else:

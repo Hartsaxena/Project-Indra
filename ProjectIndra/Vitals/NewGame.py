@@ -24,5 +24,5 @@ if firstrun == False:
             exec(open(sysexecutes/"ExecLogDel.py").read())
         elif resetconfirm.lower() == 'no' or resetconfirm.lower() == 'not really':
             sys.exit("Sorry, but the game cannot run and has been Terminated.")
-    print("Welcome back, "+str(name)+".")
+    print("Welcome back, "+name+".")
     sleep(1.5)

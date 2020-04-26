@@ -20,7 +20,7 @@ indraFactsList = ["Did you know that this program was created with a programming
                   "The creator of this project, James Sun, originally made Project Indra because he wanted someone to talk to when he was lonely.",
                   'Every single script in Project Indra was written with a text editor called Atom! You should try it sometime.',
                   "In the middle of creating this project, the creator wanted to try and translate every script to the Programming Language Ren'Py, but gave up after a couple days.",
-                  'While making this Project, the creator always had the game "Monika After Story" running in the background. Between you and me, I think James is kind of a nerd.'
+                  'While making this Project, the creator always had the game "Monika After Story" running in the background. Between you and me, I think he is kind of a weeb.'
                   ]
 animeFactsList = ["Did you know that the longest ever running anime is Sazae-san, with over 6000 episodes!",
                   "The Anime Code Geass is sponsered by the Japanese branch of Pizza Hut. If you have watched the anime, you might notice that Pizza Hut is ordered many times.",
