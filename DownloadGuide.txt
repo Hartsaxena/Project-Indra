@@ -1,4 +1,18 @@
-This is the guide to download the Project.
+THIS PROGRAM IS MEANT TO BE USED IN MACOS SYSTEMS. ATTEMPTING TO RUN THIS PROGRAM USING WINDOWS HAS NOT BEEN TESTED AND CAN CAUSE SERIOUS PROBLEMS. IF YOU WANT TO RUN THE PROGRAM IN WINDOWS, RUN IT AT YOUR OWN RISK.
+
+If you want to download the scripts automatically, follow these steps:
+
+1. Move the "Downloader.py" file to your "Documents" Folder, then run the program.
+
+2. Check your "Documents" folder and search for the file 'Indra.py'
+
+3. You're Done! Run Indra.py as the main script and check the contents through a folder called "ProjectIndra"
+
+
+
+
+
+This is the guide to download the Project if you like doing things manually (The hard way).
 
 1. Download the files through https://github.com/Hartsaxena/Project-Indra.git
 
@@ -9,5 +23,6 @@ This is the guide to download the Project.
 4. Run "Indra.py"
 
 5. Done!
+
 
 (Indra.py is the main file that you should execute if you want to play the simulation)
