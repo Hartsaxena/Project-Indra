@@ -78,7 +78,7 @@ while interest < 300 and interest > 0:  # Supreme While loop
     elif topic.lower()=='name' or topic.lower()=='change name' or topic.lower()=='change my name':
         exec(open(miscexecutes/"ExecNameChange.py").read())
 
-    elif topic.lower()=='update' or topic.lower()=='updater':
+    elif topic.lower()=='update' or topic.lower()=='updater': # NOTE: Unfinished
         exec(open(indrafolder/"Updater.py").read())
 
     else:                                                                                                           # Confused Indra
