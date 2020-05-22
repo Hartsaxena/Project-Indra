@@ -1,5 +1,6 @@
 THIS PROGRAM IS MEANT TO BE USED IN MACOS SYSTEMS. ATTEMPTING TO RUN THIS PROGRAM USING WINDOWS HAS NOT BEEN TESTED AND CAN CAUSE SERIOUS PROBLEMS. IF YOU WANT TO RUN THE PROGRAM IN WINDOWS, RUN IT AT YOUR OWN RISK.
 
+
 If you want to download the scripts automatically, follow these steps:
 
 1. Move the "Downloader.py" file to your "Documents" Folder, then run the program.
@@ -24,5 +25,21 @@ This is the guide to download the Project if you like doing things manually (The
 
 5. Done!
 
-
 (Indra.py is the main file that you should execute if you want to play the simulation)
+
+There is currently an slightly unstable app version of the project. This hasn't been tested thoroughly, so run it at your own risk. These are the instructions for downloading the app:
+
+1. Download the .dmg file through the GitHub repo.
+
+2. Open the disk image
+
+3. You should see a copy of this file and an app called "ProjectIndra.app" . There should also be an alias to your Application Folder
+
+4. Drag the ProjectIndra.app file to your Application Folder.
+
+5. Run the app to start the game.
+
+6. Done! You can now delete the .dmg file and eject the disk image.
+
+
+Thank you for Downloading Project Indra!
