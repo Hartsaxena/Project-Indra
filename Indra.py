@@ -2,15 +2,18 @@
 # I'm kind of bored right now, to be completely honest.
 
 from pathlib import Path
+import os
 
+HOME_PATH = Path(__file__).parent.absolute()
+os.chdir(HOME_PATH)
 print("Loading...")
-exec(open(Path.home() / "Documents/ProjectIndra/Vitals/VitalsPortal.py").read())
+exec(open("ProjectIndra/Vitals/VitalsPortal.py").read())
 
 
 # If you want testing (Unless it's negative testing, then go 30) just set it to 200. Default for simulation should be 75.
 # interest = 75
 # loveBonus = 3
-# negloveBonus = 0
+# negloveBonus = 3
 
 
 if firstrun == True:  # A different greeting on the game's first run
@@ -18,8 +21,8 @@ if firstrun == True:  # A different greeting on the game's first run
     print("I'm sure you're bored...")
     sleep(2)
     message = ("What should we talk about then? ")
-    print("\n")
-elif firstrun == False:
+    print(end = "\n\n")
+else:
     localfirst = False
     message = ("What should we talk about today? ")
 
@@ -29,10 +32,11 @@ if firstrun == False:
 Save()
 # Add Information to the Topcislist.py file if you want to add another topic
 # You shouldn't add a topic to the list if it is a Miscellaneous Topic
+
 while interest < 500 and interest > 0:  # Supreme While loop
 
     exec(open(vitals / "WhileReset.py").read())
-    print("")
+    print()
     topic = input(message)
     lowertopic = topic.lower()
     print("\n")
@@ -63,8 +67,14 @@ while interest < 500 and interest > 0:  # Supreme While loop
     elif lowertopic == "pets" or lowertopic == "cats" or lowertopic == "dogs" or lowertopic == 'pet' or lowertopic == 'pet animals':
         exec(open(mainexecutes / "ExecPets.py").read())
 
-    # elif lowertopic == "music" or lowertopic == "songs": # NOTE: Unfinished
-    #     exec(open(mainexecutes / "ExecMusic.py").read())
+    elif lowertopic == "music" or lowertopic == "songs":  # NOTE: Unfinished
+        exec(open(mainexecutes / "ExecMusic.py").read())
+
+    elif lowertopic == 'play a song' or lowertopic == 'play me a song' or lowertopic == 'play some music' or lowertopic == 'play music' or lowertopic == 'play custom music' or lowertopic == 'play my custom music':
+        exec(open(sysexecutes / "ExecSongPlayer.py").read())
+
+    elif lowertopic == 'stop music' or lowertopic == 'stop playing music' or lowertopic == 'please stop playing music':  # Stops playing music
+        exec(open(sysexecutes / "ExecStopSongPlayer.py").read())
 
     # elif lowertopic == 'video games':  # NOTE: Unfinished
     #     exec(open(mainexecutes / "ExecVideoGames.py").read())
@@ -111,18 +121,8 @@ while interest < 500 and interest > 0:  # Supreme While loop
     # These should all be commented out of the program on default.
 
     # elif lowertopic == 'variablestest':
-    #     print(f"Name: {name}")
-    #     print(f"Gender: {gender}")
-    #     print(f"Age: {age}")
-    #     print(f"Birthdate: {birthdate}")
-    #     print(f"Currentdate: {currentdate}")
-    #     print(f"nextyear: {nextyear}")
-    #     print(f"Interest Level: {interest}")
-    #     print(f"Interactions: {interactions}")
-    #     print(f"LoveBonus: {loveBonus}")
-    #     print(f"NegativeLoveBonus: {negloveBonus}")
-    #     print(f"Devbypass: {devbypass}")
-    #     print(f"Last logged date: {lastlogdate}")
+    #     for name, value in globals().items():
+    #         print(name, value)
     #
     # elif lowertopic == 'functest':  # This is for code testing and isn't meant to be used for actual gameplay
     #     CustomRecord("Function Test", "functest", +23)
